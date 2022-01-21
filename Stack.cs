@@ -28,7 +28,7 @@ namespace Stack_Test
                 this.head = node;
 
             }
-            Console.WriteLine("{0} inserted into linked list", node.data);
+            Console.WriteLine("{0} inserted into linked list", node.data); 
         }
     }
 }

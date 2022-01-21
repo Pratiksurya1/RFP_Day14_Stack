@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Stack_Test
 {
-    internal class Node
+    internal class Node 
     {
         public int data;
         public Node next;

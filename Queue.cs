@@ -27,5 +27,20 @@ namespace Stack_Test
             }
             Console.WriteLine("{0} inserted into linked list", node.data);
         }
+
+        public void Dequeue()
+        {
+            if (this.head == null)
+            {
+                Console.WriteLine("No elements");
+            }
+            else
+            {
+                Node temp = this.head;
+                Console.WriteLine(temp.data);
+                head = head.next;
+                temp.next = null;
+            }
+        }
     }
 }

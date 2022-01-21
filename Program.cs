@@ -21,6 +21,7 @@ namespace Stack_Test
             queue.Append(56);
             queue.Append(30);
             queue.Append(70);
+            queue.Dequeue();
         }
     }
 }

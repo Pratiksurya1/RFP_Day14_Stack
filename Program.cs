@@ -10,12 +10,17 @@ namespace Stack_Test
     {
         public static void Main(String[] args)
         {
-            Stack stack = new Stack();
-            stack.Push(70);
-            stack.Push(30);
-            stack.Push(56);
-            stack.Pop();
-            stack.Peak();
+            //Stack stack = new Stack();
+            //stack.Push(70);
+            //stack.Push(30);
+            //stack.Push(56);
+            //stack.Pop();
+            //stack.Peak();
+
+            Queue queue = new Queue();
+            queue.Append(56);
+            queue.Append(30);
+            queue.Append(70);
         }
     }
 }
